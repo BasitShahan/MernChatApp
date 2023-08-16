@@ -1,0 +1,22 @@
+.image-container {
+    display: inline-block; /* Ensures the container size matches the image size */
+    position: relative; /* Needed for absolute positioning within */
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the animation */
+  }
+  
+  .image-container:hover img {
+    animation: bounce 1s infinite; /* Apply the animation on hover */
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Initial and final state (no movement) */
+    }
+    50% {
+      transform: translateY(-10px); /* Midpoint of animation (move up) */
+    }
+  }
+  

@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(rgb(255, 255, 255), rgb(109, 30, 139));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92.2vh;
+
+}
+
+.send {
+  text-align: center;
+}
+
+#sendcontainer {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 956px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contain {
+  max-width: 950px;
+  border: 2px solid black;
+  height: 74vh;
+  overflow-y: auto;
+ background-color: pink;
+ margin-top: -10px;
+}
+
+.message {
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+  background-color: white; /* White background for received messages */
+  color: black; /* Black text color for received messages */
+}
+
+.right {
+  float: right;
+  clear: both;
+  background-color: #04873b; /* Green background for sent messages */
+  color: black; /* Black text color for sent messages */
+}
+
+#messageinp {
+  width: 94%;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+  margin-top: 2px;
+}
+
+#btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+  margin-left: 4px;
+}
